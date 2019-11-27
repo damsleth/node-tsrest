@@ -1,5 +1,4 @@
-# TSREST - barebones TypeScript REST api for node
-Minimalist node-based REST api.
+# TSREST - Minimalist node-based REST api.
 
 This implementation uses the following
   * restify as connect-style middleware
