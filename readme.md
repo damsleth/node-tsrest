@@ -1,16 +1,16 @@
 # TSREST - barebones TypeScript REST api for node
-A minimalist implementation of a node-based REST api.
+Minimalist node-based REST api.
 
 This implementation uses the following
-  * restify as connect-style middleware, instead of express
-  * ts-node, for node typescript-support.
-  * got, for sweet, lightweight http request handling 
-  * dotenv for variable handling
+  * restify as connect-style middleware
+  * ts-node, for node typescript-support
+  * got, for lightweight http request handling 
+  * dotenv for variable handlings
 
 ## Installation
   * clone
   * npm install
-  * npm start / npm run-script start
+  * npm start
 
 ## Usage / Extending
 
