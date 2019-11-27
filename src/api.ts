@@ -1,4 +1,4 @@
-import * as got from "got";
+import got from "got";
 export module Api {
 
     export function hello(req, res, next) { res.send(`Hello ${req.params.name}`); return next() }
@@ -20,6 +20,15 @@ export module Api {
             console.log(`ERROR\n${error}`)
             res.send(`ERROR\n${error}`)
         }
+    }
+
+    export function notFound(req, res, err, cb) {
+        res.send('404 not found!');
+        return cb();
+    }
+    export function badRequest(req,res,err,cb){
+        res.send("400 bad request!")
+        return cb();
     }
 }
 

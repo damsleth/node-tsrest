@@ -2,15 +2,14 @@
   "name": "tsrest",
   "version": "1.0.0",
   "description": "Scaffolding for a minimalist Typescript REST api",
-  "main": "index.js",
+  "main": "main.ts",
   "scripts": {
-    "start": "node -r esm -r ts-node/register ./src/index.ts"
+    "start": "node -r ts-node/register ./src/server.ts"
   },
   "keywords": [
     "typescript",
     "REST",
     "api",
-    "esm",
     "scaffolding",
     "barebones",
     "starter",
@@ -25,7 +24,6 @@
   },
   "dependencies": {
     "dotenv": "^8.2.0",
-    "esm": "^3.2.25",
     "got": "^9.6.0",
     "restify": "^8.4.0",
     "ts-node": "^8.5.2",
